@@ -52,9 +52,10 @@ Static	Non-Static
 Belongs to the class	Belongs to the object
 Shared by all objects	Separate for each object
 One shared copy	One copy per object
-Uses the static keyword	Does not use static
+Uses static keyword	Does not use static
 Key Takeaway
-Static     → One shared copy
+
+Static → One shared copy
 Non-static → Separate copy for each object
 
 Files
