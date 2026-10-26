@@ -1,31 +1,15 @@
-Java Lab Practice: Stack and Heap Memory
-
-A collection of Java lab practice problems designed to demonstrate stack memory, heap memory, instance variables, local variables, object identity, method execution frames, and local inner classes.
-
-📚 Table of Contents
-Overview
+Java Lab Assignment: Stack and Heap Memory
+Student Information
+Name: Md. Afif Zaman
+ID: IT23059
+Course: Software Engineering and Project Management
+Assignment Topic: Stack and Heap Memory in Java
 Problem 1: Demonstrating Stack and Heap Memory
-Problem 2: Stack Frames, Heap Objects, and Inner Classes
-Key Java Memory Concepts
-Requirements
-How to Compile and Run
-Learning Objectives
-Overview
-
-This project contains two Java programming exercises, ranging from beginner to intermediate level. Each exercise focuses on understanding how Java manages objects, variables, and method execution.
-
-The programs use System.identityHashCode() to display object identity hash codes. These values help identify objects during program execution but are not actual memory addresses.
-
-Problem 1: Demonstrating Stack and Heap Memory
-
-Level: Beginner
-Marks: 1 point (problem statement) / 3 points (mark distribution)
-
 Problem Statement
 
 Write a Java program that creates a Student class with an instance variable age and a method display(). Inside the method, declare a local variable marks.
 
-In the main() method, create a Student object and display the instance variable, local variable, and object identity using System.identityHashCode().
+Create a Student object in the main() method and display the instance variable, local variable, and object identity using System.identityHashCode().
 
 Sample Input
 text
@@ -40,30 +24,43 @@ Instance Variable (age): 20
 Local Variable (marks): 85
 
 
-Note: The identity hash code may differ each time the program runs. It does not represent the actual memory address of the object.
+Note: The identity hash code may differ each time the program runs. It is not the actual memory address of the object.
 
-Mark Distribution (3 Points)
-Criteria	Marks
-Correctly define the Student class and instance variable	1
-Declare and display the local variable inside display()	1
-Create the object and display its identity hash code	1
-Total	3
+Java Source Code
+
+Code URL: https://github.com/afif-zaman/SOFTWARE-ENGINEERING_AND_PROJECT-MANAGEMENT/blob/main/ASSIGNMENTS/STACK_%26_HEAP/Student_Problem/Student.java
+
+Theory
+1. Stack Memory
+
+Stack memory is used to manage method execution. Each method invocation creates a stack frame that holds information such as local variables and intermediate computation state.
+
+In this program, the display() method executes using a method stack frame. The local variable marks is associated with that method invocation.
+
+2. Heap Memory
+
+Heap memory is used for allocating Java objects and arrays. In this program, the Student object is allocated in heap memory.
+
+3. Instance Variable
+
+An instance variable belongs to an object of a class. In this example, age is an instance variable of the Student class. Each Student object has its own instance field.
+
+4. Local Variable
+
+A local variable is declared inside a method or block. In this program, marks is declared inside the display() method and is associated with that method invocation.
+
+5. Object Identity Hash Code
+
+The System.identityHashCode() method returns the identity hash code of an object, even if the object's class overrides hashCode(). The returned value is not a memory address and is not guaranteed to be unique.
+
 Problem 2: Stack Frames, Heap Objects, and Inner Classes
-
-Level: Intermediate
-Marks: 3 points
-
 Problem Statement
 
 Write a Java program that defines an Employee class with an instance variable salary and an instance method display().
 
-Inside display():
+Inside the display() method, declare a local variable bonus and create a local inner class named Report with a method show().
 
-Declare a local variable bonus.
-Create a local inner class named Report.
-Define a method show() inside the Report class.
-
-Your program should:
+The program should:
 
 Create an Employee object and display its identity hash code.
 Display the instance variable salary and local variable bonus.
@@ -88,37 +85,50 @@ Report Identity Hash Code: 87654321
 Report: Employee salary is 30000
 
 
-Note: The identity hash codes shown above are illustrative. Actual values may differ between executions and are not actual memory addresses.
+Note: The identity hash codes shown above are illustrative. Actual values may differ between executions and do not represent actual memory addresses.
 
-Memory Concepts
-Component	Description
-Employee object	Stored in heap memory
-Report object	Stored in heap memory
-salary	Instance field belonging to the Employee object
-bonus	Local variable declared inside display()
-display()	Executes using a method stack frame
-show()	Executes using its own method stack frame when invoked
-Mark Distribution (3 Points)
-Criteria	Marks
-Correctly implement the Employee class, instance variable, and display() method	1
-Implement the local Report class and its show() method	1
-Display object identity hash codes and correctly identify the instance field, local variable, and method execution frame	1
-Total	3
-Key Java Memory Concepts
-1. Stack Memory
+Java Source Code
 
-Stack memory supports method execution. Each method invocation has a stack frame that holds information such as local variables and intermediate computation state.
+Code URL: https://github.com/afif-zaman/SOFTWARE-ENGINEERING_AND_PROJECT-MANAGEMENT/blob/main/ASSIGNMENTS/STACK_%26_HEAP/Employee_Problem/Employee.java
 
-2. Heap Memory
+Theory
+1. Stack Frames
 
-Heap memory is where Java objects and arrays are allocated. In these exercises, the Student, Employee, and Report instances are heap-allocated objects.
+A stack frame is created when a method is invoked. It holds the information needed for that method's execution, including local variables and intermediate computation state.
 
-3. Instance Variables
+In this program, both display() and show() execute using their respective method stack frames.
 
-Instance variables belong to individual objects. Each Student object has its own age field, and each Employee object has its own salary field.
+2. Heap Objects
 
-4. Local Variables
+Java objects are allocated in heap memory. In this program, both the Employee object and the Report object are allocated in heap memory.
 
-Local variables are declared inside methods or other blocks. In these exercises, marks is declared inside display() for the Student class, while bonus is declared inside display() for the Employee class.
+3. Instance Variable
 
-Local variables are associated with the method invocation in which they are declared. Their
+The salary variable is an instance field of the Employee class. It belongs to an Employee object and stores that employee's salary.
+
+4. Local Variable
+
+The bonus variable is declared inside the display() method. It is a local variable associated with the method invocation.
+
+5. Local Inner Class
+
+A local inner class is a class declared inside a method or block. In this program, Report is declared inside display() and contains the show() method.
+
+The Report object can access the enclosing Employee object's instance field salary. The show() method displays the employee's salary.
+
+6. Object Identity Hash Code
+
+The System.identityHashCode() method returns an object's identity hash code. This value can help distinguish objects during program execution, but it is not a memory address and is not guaranteed to be unique.
+
+Conclusion
+
+These two Java programs demonstrate fundamental concepts of Java memory management and object-oriented programming.
+
+The first problem explains the relationship between a class, its instance variable, a local variable, and a heap-allocated object.
+
+The second problem extends these concepts by introducing method stack frames and a local inner class. It demonstrates how multiple objects can be created and how methods execute within their own stack frames.
+
+Understanding these concepts helps build a stronger foundation in Java programming, object-oriented design, and memory management.
+
+Submitted by: Md. Afif Zaman
+Student ID: IT23059
