@@ -1,4 +1,3 @@
-
 # Java Lab Assignment: Stack and Heap Memory
 
 ## Student Information
@@ -35,6 +34,16 @@ Local Variable (marks): 85
 ```
 
 **Note:** The identity hash code may differ each time the program runs. It is not the actual memory address of the object.
+
+## Input and Output Images
+
+### Input Image
+
+![Problem 1 Input](./Student_Problem/input.png)
+
+### Output Image
+
+![Problem 1 Output](./Student_Problem/output.png)
 
 ## Java Source Code
 
@@ -105,6 +114,16 @@ Report: Employee salary is 30000
 
 **Note:** The identity hash codes shown above are illustrative. Actual values may differ between executions and do not represent actual memory addresses.
 
+## Input and Output Images
+
+### Input Image
+
+![Problem 2 Input](./Employee_Problem/input.png)
+
+### Output Image
+
+![Problem 2 Output](./Employee_Problem/output.png)
+
 ## Java Source Code
 
 **Code URL:** [View Employee.java](https://github.com/afif-zaman/SOFTWARE-ENGINEERING_AND_PROJECT-MANAGEMENT/blob/main/ASSIGNMENTS/STACK_%26_HEAP/Employee_Problem/Employee.java)
@@ -141,7 +160,7 @@ The `System.identityHashCode()` method returns an object's identity hash code. T
 
 ---
 
-## Conclusion
+# Conclusion
 
 These two Java programs demonstrate fundamental concepts of Java memory management and object-oriented programming.
 
