@@ -39,11 +39,11 @@ Local Variable (marks): 85
 
 ### Input Image
 
-![Problem 1 Input](./Student_Problem/input.png)
+![Problem 1 Input](./Student_Problem/Input.png)
 
 ### Output Image
 
-![Problem 1 Output](./Student_Problem/output.png)
+![Problem 1 Output](./Student_Problem/Output.png)
 
 ## Java Source Code
 
@@ -118,11 +118,11 @@ Report: Employee salary is 30000
 
 ### Input Image
 
-![Problem 2 Input](./Employee_Problem/input.png)
+![Problem 2 Input](./Employee_Problem/Input.png)
 
 ### Output Image
 
-![Problem 2 Output](./Employee_Problem/output.png)
+![Problem 2 Output](./Employee_Problem/Output.png)
 
 ## Java Source Code
 
