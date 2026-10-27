@@ -122,7 +122,7 @@ After all threads finish, the program calculates the expected count, absolute di
 
 The assignment requires a readable scan or photograph of the handwritten Java source code.
 
-**Handwritten Code:** [https://github.com/afif-zaman/SOFTWARE-ENGINEERING_AND_PROJECT-MANAGEMENT/tree/main/ASSIGNMENTS/Lab_Thread_Counter/handwritten_code](YOUR_HANDWRITTEN_CODE_URL)
+**Handwritten Code:** [https://github.com/afif-zaman/SOFTWARE-ENGINEERING_AND_PROJECT-MANAGEMENT/blob/main/ASSIGNMENTS/Lab_Thread_Counter/handwritten_code/Handwritten_Code.pdf](YOUR_HANDWRITTEN_CODE_URL)
 
 ## 2.3 Compilation
 
