@@ -10,6 +10,6 @@
 
 The following screenshot shows my HackerRank leaderboard and problem completion status.
 
-![HackerRank Leaderboard](leaderboard.png)
+![HackerRank Leaderboard](LEADERBOARD.png)
 
 
