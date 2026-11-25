@@ -1,5 +1,5 @@
 
-# Assignment: OBE-Based Question Paper Design Using Bloom's Taxonomy and BNQF
+# Assignment: OBE-Based Question Paper Design 
 
 ## Student Information
 
@@ -7,76 +7,39 @@
 |---|---|
 | Student Name | Afif Zaman |
 | Student ID | IT23059 |
-| Course | Software Engineering and Project Management |
-| Topic | Software Design |
-| Date | November 25, 2026 |
 
 ---
 
-<div align="center">
-
-### MAWLANA BHASHANI SCIENCE AND TECHNOLOGY UNIVERSITY
-
-#### Department of Information and Communication Technology
-
-### Software Engineering and Project Management
-
-**Topic: Software Design**
-
-</div>
-
-| **Time: 1 Hour** | **Full Marks: 40** |
-|:---|---:|
-
-**Instructions: Answer all questions.**
-
-| Q. No. | Questions | Marks |
-|:---:|---|:---:|
-| 1 | Define software design and state its two basic stages. | 2 |
-| 2 | Explain modularity and decomposition in software design. Describe one benefit of modular design. | 3 |
-| 3 | Explain coupling and cohesion. Describe why low coupling and high cohesion are desirable in software design. | 4 |
-| 4 | Define CBO (Coupling Between Object Classes), LCOM (Lack of Cohesion of Methods) and WMC (Weighted Methods per Class). | 3 |
-| 5 | Explain how software design reviews and software metrics contribute to the assessment of software design quality. | 3 |
-| 6 | Define software architecture and list two architectural styles. | 2 |
-| 7 | Explain the Model-View-Controller (MVC) architecture with a labeled diagram and describe the responsibilities of its components. | 5 |
-| 8 | Describe layered architecture and explain one benefit of separating software into layers. | 3 |
-| 9 | State the three categories of Gang of Four (GoF) design patterns with one example from each category. | 3 |
-| 10 | Explain the Strategy and Adapter design patterns, including the purpose and one benefit of each. | 5 |
-| 11 | Identify the three layers of enterprise application architecture and describe the responsibility of each layer. | 3 |
-| 12 | Explain Object-Relational Mapping (ORM) and describe how the Data Mapper pattern maintains independence between domain objects and the database. | 4 |
-| | **Total Marks** | **40** |
+## Question Paper
 
 <div align="center">
-
-**— End of Question Paper —**
-
+  <img src="./question-paper.png" alt="Software Engineering Question Paper" width="100%">
 </div>
 
 ---
 
 ## 1. Assessment Overview
 
-This question paper is designed following the principles of Outcome-Based Education (OBE), Bloom's Taxonomy and the Bangladesh National Qualifications Framework (BNQF).
+This assignment presents an Outcome-Based Education (OBE) question paper based on the Software Design lecture material, incorporating Bloom's Taxonomy and the principles of the Bangladesh National Qualifications Framework (BNQF).
 
-The assessment focuses on measuring students' knowledge and conceptual understanding of software design.
-
-| Assessment Parameter | Details |
+| Assessment Parameter | Specification |
 |---|---|
 | Assessment Type | Written Examination |
 | Educational Approach | Outcome-Based Education (OBE) |
 | Qualification Framework | BNQF |
 | Learning Domain | Cognitive |
 | Cognitive Levels | C1 and C2 |
-| Total Questions | 12 |
-| Course Outcomes | 5 |
-| Full Marks | 40 |
-| Duration | 60 Minutes |
+| Number of Questions | 12 |
+| Number of Course Outcomes | 5 |
+| Total Marks | 40 |
+| Examination Duration | 60 Minutes |
+| Question Selection | All Questions Compulsory |
 
 ---
 
 ## 2. Software Engineering Course Outcomes (COs)
 
-Upon completion of the assessed learning material, students should be able to:
+Upon completion of the assessed learning material, students should be able to achieve the following course outcomes:
 
 | CO | Course Outcome |
 |:---:|---|
@@ -86,13 +49,15 @@ Upon completion of the assessed learning material, students should be able to:
 | CO4 | Classify object-oriented design patterns and explain their purposes and benefits. |
 | CO5 | Describe enterprise application architecture and explain object-relational mapping and data mapping patterns. |
 
-**Note:** These course outcomes are proposed based on the supplied Software Design lecture material and are subject to alignment with the officially approved course outcomes.
+These course outcomes are proposed based on the supplied Software Design lecture material.
 
 ---
 
 ## 3. Bloom's Taxonomy
 
-Bloom's Taxonomy classifies cognitive learning objectives into six levels.
+Bloom's Taxonomy provides a framework for classifying educational learning objectives according to their cognitive complexity.
+
+### Cognitive Domain
 
 | Level | Cognitive Category | Action Verbs | Assessment Status |
 |:---:|---|---|---|
@@ -105,13 +70,15 @@ Bloom's Taxonomy classifies cognitive learning objectives into six levels.
 
 ### Selected Cognitive Levels
 
-**C1 — Knowledge / Remembering**
+#### C1 — Knowledge / Remembering
 
-Measures the ability to recall previously learned definitions, facts, classifications and concepts.
+Measures students' ability to recall previously learned facts, definitions, concepts and classifications.
 
-**C2 — Understanding**
+#### C2 — Understanding
 
-Measures the ability to explain concepts, describe relationships and demonstrate conceptual understanding.
+Measures students' ability to explain concepts, describe relationships and demonstrate conceptual understanding.
+
+The assessment focuses exclusively on these two cognitive levels according to the assignment requirements.
 
 ---
 
@@ -155,7 +122,7 @@ Measures the ability to explain concepts, describe relationships and demonstrate
 
 ### CO-wise Marks Distribution
 
-| Course Outcome | Marks | Weight |
+| Course Outcome | Allocated Marks | Weight |
 |:---:|:---:|:---:|
 | CO1 | 9 | 22.5% |
 | CO2 | 6 | 15% |
@@ -164,13 +131,15 @@ Measures the ability to explain concepts, describe relationships and demonstrate
 | CO5 | 7 | 17.5% |
 | **Total** | **40** | **100%** |
 
+The marks are distributed according to the scope and complexity of the assessed topics rather than assigning equal marks to every course outcome.
+
 ---
 
 ## 6. Table of Specification (TOS)
 
 The Table of Specification establishes the relationship between course outcomes, cognitive levels and allocated marks.
 
-| Course Outcome | C1 — Knowledge | C2 — Understanding | Total | Weight |
+| Course Outcome | C1 — Knowledge | C2 — Understanding | Total Marks | Weight |
 |:---:|:---:|:---:|:---:|:---:|
 | CO1 | 2 | 7 | 9 | 22.5% |
 | CO2 | 3 | 3 | 6 | 15% |
@@ -183,17 +152,23 @@ The Table of Specification establishes the relationship between course outcomes,
 
 ## 7. Cognitive Level Distribution
 
-| Cognitive Level | Questions | Marks | Percentage |
+| Cognitive Level | Number of Questions | Marks | Percentage |
 |---|:---:|:---:|:---:|
 | C1 — Knowledge | 4 | 10 | 25% |
 | C2 — Understanding | 8 | 30 | 75% |
+| C3 — Applying | 0 | 0 | 0% |
+| C4 — Analyzing | 0 | 0 | 0% |
+| C5 — Evaluating | 0 | 0 | 0% |
+| C6 — Creating | 0 | 0 | 0% |
 | **Total** | **12** | **40** | **100%** |
 
 ### Graphical Representation
 
-```text
-Knowledge      █████                 25%
-Understanding  ███████████████       75%
+```mermaid
+pie showData
+    title Cognitive Level Distribution
+    "C1 - Knowledge" : 10
+    "C2 - Understanding" : 30
 ```
 
 The assessment emphasizes conceptual understanding while retaining knowledge-based questions to evaluate fundamental concepts.
@@ -201,6 +176,8 @@ The assessment emphasizes conceptual understanding while retaining knowledge-bas
 ---
 
 ## 8. Examination Time Distribution
+
+The examination duration is 60 minutes. Answering time is estimated according to the complexity, allocated marks and expected answer length of each question.
 
 | Question | Marks | Estimated Answering Time |
 |:---:|:---:|:---:|
@@ -218,33 +195,42 @@ The assessment emphasizes conceptual understanding while retaining knowledge-bas
 | Q12 | 4 | 6 Minutes |
 | **Answering Time** | **40** | **55 Minutes** |
 | Reading and Revision | — | 5 Minutes |
-| **Total** | **40** | **60 Minutes** |
+| **Total Duration** | **40** | **60 Minutes** |
 
-The estimated answering time is based on the complexity, marks and expected answer length of each question.
+### Time Allocation Summary
 
-The assessment allows 55 minutes for answering and 5 minutes for reading and revision.
+| Activity | Duration |
+|---|:---:|
+| Knowledge-Based Questions | 11 Minutes |
+| Understanding-Based Questions | 44 Minutes |
+| Reading and Revision | 5 Minutes |
+| **Total** | **60 Minutes** |
+
+The estimated duration assumes that students are adequately prepared and provide concise, relevant answers.
 
 ---
 
-## 9. Marking Rubric
+## 9. Assessment Marking Rubric
+
+The marking rubric provides a structured method for evaluating student responses consistently.
 
 | Question | Evaluation Criteria | Marks |
 |:---:|---|:---:|
-| Q1 | Definition of software design | 1 |
-| | Identification of its two stages | 1 |
+| Q1 | Correct definition of software design | 1 |
+| | Identification of its two basic stages | 1 |
 | Q2 | Explanation of modularity | 1 |
 | | Explanation of decomposition | 1 |
-| | One relevant benefit | 1 |
+| | Description of one benefit | 1 |
 | Q3 | Explanation of coupling | 1 |
 | | Explanation of cohesion | 1 |
 | | Importance of low coupling | 1 |
 | | Importance of high cohesion | 1 |
-| Q4 | Definition of CBO | 1 |
-| | Definition of LCOM | 1 |
-| | Definition of WMC | 1 |
-| Q5 | Explanation of design reviews | 1.5 |
-| | Explanation of design metrics | 1.5 |
-| Q6 | Definition of software architecture | 1 |
+| Q4 | Correct definition of CBO | 1 |
+| | Correct definition of LCOM | 1 |
+| | Correct definition of WMC | 1 |
+| Q5 | Explanation of software design reviews | 1.5 |
+| | Explanation of software design metrics | 1.5 |
+| Q6 | Correct definition of software architecture | 1 |
 | | Identification of two architectural styles | 1 |
 | Q7 | Explanation of MVC architecture | 1 |
 | | Responsibility of Model | 1 |
@@ -253,17 +239,17 @@ The assessment allows 55 minutes for answering and 5 minutes for reading and rev
 | | Correct labeled diagram | 1 |
 | Q8 | Description of layered architecture | 2 |
 | | Explanation of one benefit | 1 |
-| Q9 | Creational pattern category and example | 1 |
-| | Structural pattern category and example | 1 |
-| | Behavioral pattern category and example | 1 |
+| Q9 | Creational pattern category with example | 1 |
+| | Structural pattern category with example | 1 |
+| | Behavioral pattern category with example | 1 |
 | Q10 | Explanation and purpose of Strategy pattern | 1.5 |
 | | One benefit of Strategy pattern | 1 |
 | | Explanation and purpose of Adapter pattern | 1.5 |
 | | One benefit of Adapter pattern | 1 |
-| Q11 | Presentation layer and responsibility | 1 |
-| | Business layer and responsibility | 1 |
-| | Data source layer and responsibility | 1 |
-| Q12 | Explanation of ORM | 2 |
+| Q11 | Presentation layer and its responsibility | 1 |
+| | Business or domain layer and its responsibility | 1 |
+| | Data source layer and its responsibility | 1 |
+| Q12 | Explanation of Object-Relational Mapping | 2 |
 | | Explanation of Data Mapper and independence | 2 |
 | | **Total Marks** | **40** |
 
@@ -273,29 +259,24 @@ Equivalent technically correct answers should receive appropriate credit.
 
 ## 10. BNQF and OBE Alignment
 
-The Bangladesh National Qualifications Framework (BNQF) establishes national standards for educational qualifications and expected learning outcomes.
+### Bangladesh National Qualifications Framework (BNQF)
 
-Outcome-Based Education focuses on measurable learning outcomes rather than solely on syllabus completion.
+BNQF establishes national standards for educational qualifications and expected learning outcomes in Bangladesh. It emphasizes knowledge, skills and competencies appropriate to different qualification levels.
 
-The assessment follows the relationship below:
+### Outcome-Based Education (OBE)
 
-```text
-BNQF
-  |
-  v
-Outcome-Based Education
-  |
-  v
-Course Outcomes
-  |
-  v
-Bloom's Taxonomy
-  |
-  v
-Question Paper Design
-  |
-  v
-Assessment and Evaluation
+Outcome-Based Education focuses on measurable learning outcomes that students are expected to achieve after completing a learning experience.
+
+### Assessment Design Framework
+
+```mermaid
+flowchart TD
+    A["Bangladesh National Qualifications Framework"] --> B["Outcome-Based Education"]
+    B --> C["Course Outcomes"]
+    C --> D["Bloom's Taxonomy"]
+    D --> E["Question Paper Design"]
+    E --> F["Question-to-CO Mapping"]
+    F --> G["Assessment and Evaluation"]
 ```
 
 ### Assessment Alignment
@@ -308,9 +289,9 @@ Assessment and Evaluation
 | Cognitive Mapping | Every question mapped to a Bloom's level |
 | Assessment Transparency | Defined marks and marking rubric |
 | Time Feasibility | 60-minute examination plan |
-| Content Alignment | Questions derived from supplied lecture material |
+| Content Alignment | Questions based on Software Design lecture material |
 
-This assessment adopts BNQF-oriented and OBE-based principles appropriate for undergraduate education.
+The assessment adopts an outcome-oriented approach appropriate for undergraduate education.
 
 The selected cognitive levels, marks distribution and course outcomes are assignment-specific proposals rather than mandatory BNQF requirements. Formal alignment requires verification against the approved curriculum and applicable BNQF descriptors.
 
@@ -318,17 +299,20 @@ The selected cognitive levels, marks distribution and course outcomes are assign
 
 ## 11. Course Outcome Attainment
 
-Individual course outcome attainment can be estimated using the following formula:
+Individual course outcome attainment can be estimated using the marks obtained in questions mapped to each course outcome.
 
-```text
-CO Attainment (%) =
+### Formula
 
-(Obtained CO Marks / Allocated CO Marks) × 100
-```
+$$
+\text{CO Attainment} =
+\frac{\text{Obtained CO Marks}}
+{\text{Allocated CO Marks}}
+\times 100\%
+$$
 
 ### Illustrative Example
 
-| CO | Allocated Marks | Obtained Marks | Attainment |
+| Course Outcome | Allocated Marks | Obtained Marks | Attainment |
 |:---:|:---:|:---:|:---:|
 | CO1 | 9 | 7 | 77.78% |
 | CO2 | 6 | 5 | 83.33% |
@@ -337,46 +321,51 @@ CO Attainment (%) =
 | CO5 | 7 | 5 | 71.43% |
 | **Total** | **40** | **31** | **77.5%** |
 
-The above values are hypothetical and demonstrate the calculation of individual CO attainment.
+These values are hypothetical and demonstrate the calculation of individual course outcome attainment.
 
 Actual course-level attainment should follow the institution's approved OBE assessment policy.
 
 ---
 
-## 12. Lecture Material Mapping
+## 12. Assessment Design Justification
 
-| Question | Lecture Topic | PDF Pages |
-|:---:|---|:---:|
-| Q1 | Software Design Fundamentals | 3–8 |
-| Q2 | Modularity and Decomposition | 9–10 |
-| Q3 | Coupling and Cohesion | 12–13 |
-| Q4 | Software Design Quality Metrics | 17–29 |
-| Q5 | Software Design Quality | 15–16 |
-| Q6 | Software Architecture | 30–39 |
-| Q7 | MVC Architecture | 37 |
-| Q8 | Layered Architecture | 35 |
-| Q9 | GoF Pattern Classification | 40–44 |
-| Q10 | Strategy and Adapter Patterns | 47–51, 57–62 |
-| Q11 | Enterprise Application Architecture | 81–82 |
-| Q12 | ORM and Data Mapper | 88–89 |
+### Outcome Alignment
+
+Each question is mapped to a specific course outcome to ensure that the assessment measures identifiable learning objectives.
+
+### Cognitive Alignment
+
+The questions use measurable action verbs corresponding to the Knowledge and Understanding levels of Bloom's Taxonomy.
+
+### Marks Distribution
+
+Marks are allocated according to the complexity and expected depth of each response.
+
+### Time Feasibility
+
+The examination is designed with an estimated answering time of 55 minutes and an additional 5 minutes for reading and revision.
+
+### Assessment Transparency
+
+The question mapping matrix, Table of Specification and marking rubric establish a structured and transparent evaluation process.
 
 ---
 
 ## 13. Conclusion
 
-This assignment presents a 40-mark OBE-based Software Engineering assessment designed for a one-hour examination.
+This assignment presents a 40-mark Outcome-Based Education assessment for Software Engineering, designed to be completed within one hour.
 
-The question paper contains 12 compulsory questions mapped to five proposed course outcomes and two cognitive levels of Bloom's Taxonomy.
+The question paper consists of 12 compulsory questions mapped to five proposed course outcomes and two cognitive levels of Bloom's Taxonomy.
 
-The assessment allocates 25% of the marks to Knowledge and 75% to Understanding.
+The assessment allocates 25% of the total marks to Knowledge and 75% to Understanding.
 
-The inclusion of a question-to-CO mapping matrix, Table of Specification, time distribution and marking rubric provides a structured and measurable assessment approach.
+The incorporation of course outcome mapping, cognitive level classification, time distribution and a marking rubric provides a structured, measurable and outcome-oriented assessment approach.
 
 ---
 
 ## 14. References
 
-1. Software Design Lecture Material — SoftEng-Design.pdf.
+1. [Software Design Lecture Material](./SoftEng-Design.pdf).
 2. Bangladesh National Qualifications Framework (BNQF).
 3. Bloom, B. S. et al. (1956). Taxonomy of Educational Objectives.
 4. Anderson, L. W., and Krathwohl, D. R. (2001). A Taxonomy for Learning, Teaching, and Assessing.
@@ -384,3 +373,6 @@ The inclusion of a question-to-CO mapping matrix, Table of Specification, time d
 6. Ian Sommerville — Software Engineering.
 7. Gamma, Helm, Johnson and Vlissides — Design Patterns.
 8. Martin Fowler — Patterns of Enterprise Application Architecture.
+
+---
+
